@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>  The Goats  </title>
+
+  <link rel="icon" href="favicon.ico" sizes="16x16">
+   
+
+<style type="text/css">
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Pacifico&display=swap');
+
+ #titulo{
+      color: skyblue;
+      font-weight: bold;
+      font-variant: small-caps;
+      font-size: 85px;
+      text-shadow: 5px 5px  black, 5px 5px black ;
+      text-align: center;
+      font-family: Pacifico;
+}
+
+
+body{
+	margin: 0;
+	font-size: 20px;
+	background-color: black;
+}
+
+.box{
+  height: 500px;
+  border: solid 0.5px black;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-grow: grow;
+  width: 375px;
+  background-repeat: no-repeat;
+ align-content: center;
+
+}
+
+.box3{
+   background-image: url("messi.jpeg");   
+  height: 450px;
+   margin-left: 20%;
+   
+
+
+}
+.box1{
+   background-image: url("cristiano.jpeg");  
+   margin-left: 17%;
+
+
+}
+
+.box2{
+
+   background-image: url("neymar.jpeg"); 
+      margin-left: 18%;
+   background-size: 400px;
+   flex-wrap: wrap;
+   flex-direction: right;
+
+     }
+
+
+.menu
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 1.2em;
+	width: calc(100wv - padding);
+	background-color: skyblue;
+	font-family: "Pappins",sans-serif;
+    color: black;
+}
+
+.menu a:link
+{
+	text-decoration: none;
+}
+
+.menu span {
+margin-right: 1.2em;
+}
+a:link
+{
+	color:black;
+}
+a:visited{
+	color: black;
+}
+section{
+	display: flex;
+	
+}
+
+article{
+	font-family: "Pappins",sans-serif;
+	margin: 2rem;
+	color: white;
+}
+
+@media(min-width: 320px) and (max-width: 480px)
+{
+	.menu{
+		flex-direction: column;
+		font-size: 0.3em;
+	}
+
+section
+{
+	
+	font-size: 0.3em;
+			flex-direction: column;
+
+}
+
+.box{
+	align-items: center;
+}
+
+}
+
+@media(min-width: 481px) and (max-width:767px)
+{
+	.menu{
+		flex-direction: column;
+		font-size: 0.7em;
+	}
+
+section{
+	
+	font-size: 0.7em;
+			flex-direction: column;
+
+}
+
+.box{
+	align-items: center;
+}
+
+}
+
+@media(min-width: 768px) and (max-width: 1024px)
+{
+	.menu{
+		flex-direction: column;
+		font-size: 0.8em;
+	}
+
+section{
+
+	font-size: 0.7em;
+			flex-direction: column;
+
+}
+
+}
+
+@media print
+{
+	.body{
+		background-color: blue;
+	}
+	.menu, .imp{
+		display: none;
+	}
+}
+
+.imp{
+
+	direction: rtl;
+}
+
+
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+<nav class="menu">
+	
+	<span><a href="messi.html"> Messi </span>
+    <span><a href="cristianoR.html"> Cristiano </span>
+	<span><a href="neymar.html"> Neymar </span>
+	<span><a href="seujgdr.html"> Crie seu jogador </span>
+
+</nav>
+
+<div class="imp">
+	<a href="" onclick='window.print()';>
+	<img src="impress.png" width="24px">
+	</a>
+
+</div>
+
+<div>
+	 <h1 id="titulo">The Goats</h1>
+</div>
+
+<section>
+	<div>
+	<article>
+		<h1 align="center">Messi</h1>
+Lionel Messi (1987) é um jogador de futebol argentino e um dos melhores atacantes do mundo. Com habilidade técnica e uma velocidade excepcional foi eleito sete vezes o melhor jogador de futebol do mundo, conquistando o troféu Bola de Ouro em 2009, 2010, 2011, 2012, 2015, 2019 e 2021.
+Em 2022 Messi se destacou na Copa do Mundo do Catar e levou a Argentina a Conquistar o título de Campeã do Mundo. Messi recebeu o troféu de Melhor Jogador da Copa.
+
+
+ 
+</article>
+<a href="messi.html"><div class="box box3 " >Messi</div></a>
+
+</div>
+<div> 
+<article>
+	<h1 align="center">Cristiano</h1>
+	Cristiano Ronaldo (1985) é um futebolista português que fez história no Real Madrid. Foi jogador do Manchester United, do Juventus, da Itália e da Seleção Portuguesa. Foi eleito o melhor jogador do mundo em 2008, 2013, 2014, 2016 e 2017. Recebeu cinco bolas de ouro em sua carreira. Atualmente é jogador do Al-Nassr, da Arábia Saudita.
+
+
+
+</article>
+<a href="cristianoR.html"><div class="box box1">Cristiano Ronaldo</div></a>
+</div>
+
+<div>
+<article>
+		<h1 align="center">Neymar</h1>
+Neymar (1992) é um futebolista brasileiro, considerado um dos maiores da história. Ganhou diversos títulos jogando pelo Santos Futebol Clube, onde iniciou sua carreira aos 11 anos de idade.
+Sua posição é atacante, atuando como ponta-esquerda. Neymar jogou em diversos times. Seu mais recente contrato foi assinado com o Al-Hilal da Arábia Saudita, onde vai jogar durante dois anos.
+
+</article>
+<a href="neymar.html"><div class="box box2">Neymar Jr</div></a>
+
+</div>
+</section>
+
+</body>
+</html>
